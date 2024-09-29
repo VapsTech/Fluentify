@@ -1,0 +1,190 @@
+/* static/styles.css */
+
+/* General Styles */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.app-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.navbar {
+    background-color: #4a6cf7;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.custom-card {
+    border: none;
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #4a6cf7;
+}
+
+.text-content {
+    background-color: #fff;
+    min-height: 150px;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+.status-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.custom-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.custom-btn i {
+    margin-right: 0.5rem;
+}
+
+.custom-btn.btn-primary {
+    background-color: #4a6cf7;
+    border: none;
+}
+
+.custom-btn.btn-primary:hover {
+    background-color: #3a5cd0;
+}
+
+.custom-btn.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.custom-btn.btn-success:hover {
+    background-color: #218838;
+}
+
+.custom-btn.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.custom-btn.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.footer {
+    background-color: #4a6cf7;
+}
+
+.footer small {
+    font-size: 0.9rem;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-select, .form-range {
+    border-radius: 10px;
+}
+
+#speechRateValue {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #4a6cf7;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.alert-danger {
+    border-radius: 10px;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+}
+
+.modal-body p, .modal-body ol {
+    color: #555;
+}
+
+@media (max-width: 576px) {
+    .custom-btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .app-title {
+        font-size: 1.75rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1e1e1e;
+        color: #f5f5f5;
+    }
+    .navbar, .footer {
+        background-color: #333;
+    }
+    .custom-card {
+        background-color: #2a2a2a;
+    }
+    .text-content {
+        background-color: #333;
+        color: #f5f5f5;
+    }
+    .form-select, .form-range {
+        background-color: #2a2a2a;
+        color: #f5f5f5;
+    }
+    .modal-content {
+        background-color: #2a2a2a;
+    }
+    .modal-body p, .modal-body ol {
+        color: #ccc;
+    }
+    .custom-btn {
+        background-color: #4a6cf7;
+    }
+}
